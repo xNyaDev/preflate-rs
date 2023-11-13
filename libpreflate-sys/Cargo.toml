@@ -1,0 +1,18 @@
+[package]
+name = "libpreflate-sys"
+version = "0.1.0"
+edition = "2021"
+authors = ["xNyaDev <xnyadev@pm.me>"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/xNyaDev/preflate-rs/"
+homepage = "https://github.com/xNyaDev/preflate-rs/"
+description = "Low-level bindings to preflate, a deflate stream reconstruction library"
+categories = ["external-ffi-bindings"]
+keywords = ["preflate", "reconstruction"]
+
+[dependencies]
+cxx = "1.0.110"
+
+[build-dependencies]
+cmake = "0.1.50"
+cxx-build = "1.0.110"
